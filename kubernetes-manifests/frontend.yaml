@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: gcr.io/microservices-demo-app/frontend
+          image: gcr.io/my-project-1482273976024/frontend
           ports:
           - containerPort: 8080
           readinessProbe:

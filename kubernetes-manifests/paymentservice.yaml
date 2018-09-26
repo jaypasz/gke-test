@@ -25,7 +25,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: gcr.io/microservices-demo-app/paymentservice
+        image: gcr.io/my-project-1482273976024/paymentservice
         ports:
         - containerPort: 50051
         readinessProbe:
